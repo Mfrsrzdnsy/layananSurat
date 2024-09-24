@@ -1,0 +1,312 @@
+<script>alert('Hanya Staff yang boleh mengakses!'); window.location = 'index.php'</script><!DOCTYPE html>
+<html>
+<head>
+	<title>Export Data Ke Excel</title>
+</head>
+<body>
+	<style type="text/css">
+	body{
+		font-family: sans-serif;
+	}
+	table{
+		margin: 20px auto;
+		border-collapse: collapse;
+	}
+	table th,
+	table td{
+		border: 1px solid #3c3c3c;
+		padding: 3px 8px;
+
+	}
+	a{
+		background: blue;
+		color: #fff;
+		padding: 8px 10px;
+		text-decoration: none;
+		border-radius: 2px;
+	}
+	.str { 
+		mso-number-format:\@; 
+	}
+	</style>
+
+ 
+	<center>
+		<h3>DATA PENDUDUK<br/>
+			
+	</center>
+
+	<table border="1">
+		<tr>			<th>No</th>
+                        <th>Nkk</th>
+                        <th>Nik</th>
+                        <th>Nama</th>
+                        <th>Jk</th>
+                        <th>Tmp. Lahir</th>
+                        <th>Tgl. Lahir</th>
+                        <th>Warga negara</th>
+                        <th>Agama</th>
+                        <th>Status</th>
+                        <th>Pend</th>
+                        <th>Kerjaan</th>
+                        <th>Prov</th>
+                        <th>Kab</th>
+                        <th>Kec</th>
+                        <th>Desa</th>
+                        <th>Alamat</th>
+                        <th>HP</th>
+                        <th>SHDK</th>
+                        <th>Foto</th>
+                        <th>Ket</th>
+                    </tr>
+				<tr>
+			<td>1</td>
+			<td class="str">5202016607020031</td>
+			<td class="str">5202016607020031</td>
+			<td>Baiq Dita Mustika</td>
+			<td>Perempuan</td>
+			<td>selaparang</td>
+			<td class="str">2000-10-10</td>
+			<td>Republik Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>S1</td>
+			<td>Swasta</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Timur</td>
+			<td>Suela</td>
+			<td>Selaparang</td>
+			<td>Jln.makam raja selaparang</td>
+			<td class="str">081883429177</td>
+			<td>Istri</td>
+			<td>96IMG-20210830-WA0087.jpg</td>
+			<td>-</td>
+			
+		</tr>
+				<tr>
+			<td>2</td>
+			<td class="str">5202016607020027</td>
+			<td class="str">5202016607020017</td>
+			<td>Hafni </td>
+			<td>Perempuan</td>
+			<td>selaparang</td>
+			<td class="str">2002-01-18</td>
+			<td>Republik Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>S1</td>
+			<td>Swasta</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Timur</td>
+			<td>Suela</td>
+			<td>Selaparang</td>
+			<td>Jln.makam raja selaparang</td>
+			<td class="str">08323456789</td>
+			<td>Ibu</td>
+			<td>91IMG_20220818_073612.jpg</td>
+			<td>-</td>
+			
+		</tr>
+				<tr>
+			<td>3</td>
+			<td class="str">5202016607020025</td>
+			<td class="str">5202016607020026</td>
+			<td>Irfan Anshori</td>
+			<td>Laki-laki</td>
+			<td>Narmada</td>
+			<td class="str">2002-09-27</td>
+			<td>Republik Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>S1</td>
+			<td>Swasta</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Timur</td>
+			<td>Suela</td>
+			<td>Selaparang</td>
+			<td>Jln.makam raja selaparang</td>
+			<td class="str">08765432167</td>
+			<td>Anak</td>
+			<td>77IMG_20220818_073612.jpg</td>
+			<td>on</td>
+			
+		</tr>
+				<tr>
+			<td>4</td>
+			<td class="str">5202016607020020</td>
+			<td class="str">1801235507820009</td>
+			<td>Hariawan saputra</td>
+			<td>Laki-laki</td>
+			<td>selaparang</td>
+			<td class="str">2000-05-07</td>
+			<td>Republik Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>S1</td>
+			<td>BUMN</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Timur</td>
+			<td>Suela</td>
+			<td>Selaparang</td>
+			<td>Jln.makam raja selaparang</td>
+			<td class="str">08765432190</td>
+			<td>Anak</td>
+			<td>53IMG-20210830-WA0087.jpg</td>
+			<td>on</td>
+			
+		</tr>
+				<tr>
+			<td>5</td>
+			<td class="str">5202016607020020</td>
+			<td class="str">5202016607020021</td>
+			<td>Faezal hadi</td>
+			<td>Laki-laki</td>
+			<td>selaparang</td>
+			<td class="str">2001-02-07</td>
+			<td>Republik Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>S1</td>
+			<td>Swasta</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Timur</td>
+			<td>Suela</td>
+			<td>Selaparang</td>
+			<td>Jln.makam raja selaparang</td>
+			<td class="str">08534567890</td>
+			<td>Anak</td>
+			<td>67IMG-20210830-WA0087.jpg</td>
+			<td>on</td>
+			
+		</tr>
+				<tr>
+			<td>6</td>
+			<td class="str">5202016607020016</td>
+			<td class="str">5202016607020001</td>
+			<td>Aida Safitri</td>
+			<td>Perempuan</td>
+			<td>selaparang</td>
+			<td class="str">2001-05-05</td>
+			<td>Republik Indonesia</td>
+			<td>Islam</td>
+			<td>Cerai Hidup</td>
+			<td>S1</td>
+			<td>Swasta</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Timur</td>
+			<td>Suela</td>
+			<td>Selaparang</td>
+			<td>Jln.makam raja selaparang</td>
+			<td class="str">085955339538</td>
+			<td>Istri</td>
+			<td>34IMG_20220818_073612.jpg</td>
+			<td>on</td>
+			
+		</tr>
+				<tr>
+			<td>7</td>
+			<td class="str">5202016607020015</td>
+			<td class="str">5202016607020004</td>
+			<td>Azziadati</td>
+			<td>Perempuan</td>
+			<td>Gelogor Mapong</td>
+			<td class="str">2002-07-26</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Belum Kawin</td>
+			<td>S1</td>
+			<td>BUMN</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Tengah</td>
+			<td>Praya</td>
+			<td>Bunut Baok</td>
+			<td>Gelogor Mapong</td>
+			<td class="str">081883429166</td>
+			<td>Anak</td>
+			<td>61IMG-20210830-WA0087.jpg</td>
+			<td>on</td>
+			
+		</tr>
+				<tr>
+			<td>8</td>
+			<td class="str">2345678</td>
+			<td class="str">5201036543123467</td>
+			<td>leniiiiiii</td>
+			<td>Perempuan</td>
+			<td>selaparang</td>
+			<td class="str">2016-06-07</td>
+			<td>Republik Indonesia</td>
+			<td>Hindu</td>
+			<td>Belum Kawin</td>
+			<td>SLTA</td>
+			<td>Swasta</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Timur</td>
+			<td>Suela</td>
+			<td>Selaparang</td>
+			<td>Dusun Tegal Sari Rt./Rw. 004/002</td>
+			<td class="str">087344556890</td>
+			<td>Anak</td>
+			<td>35maxresdefault.jpg</td>
+			<td>on</td>
+			
+		</tr>
+				<tr>
+			<td>9</td>
+			<td class="str">1811012505110041</td>
+			<td class="str">1811010712610002</td>
+			<td>SUBEKI</td>
+			<td>Laki-laki</td>
+			<td>MEDAN</td>
+			<td class="str">07/12/1961</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Nusa Tenggara Barat</td>
+			<td>Lombok Utara</td>
+			<td>Tanjung</td>
+			<td>Medana</td>
+			<td>Dusun Tegal Sari Rt./Rw. 004/002</td>
+			<td class="str">082374987389</td>
+			<td>-</td>
+			<td>-</td>
+			<td>on</td>
+			
+		</tr>
+				<tr>
+			<td>10</td>
+			<td class="str">1802222012080001</td>
+			<td class="str">1802225008750003</td>
+			<td>SISWATI</td>
+			<td>Perempuan</td>
+			<td>SENDANG MULYO</td>
+			<td class="str">10/08/1975</td>
+			<td>Indonesia</td>
+			<td>Islam</td>
+			<td>Kawin</td>
+			<td>-</td>
+			<td>-</td>
+			<td>Lampung</td>
+			<td>Lampung Selatan</td>
+			<td>Way Sulan</td>
+			<td>Pamulihan</td>
+			<td>Dusun Tegal Sari Rt./Rw. 002/002</td>
+			<td class="str">0</td>
+			<td>-</td>
+			<td>-</td>
+			<td></td>
+			
+		</tr>
+			</table>
+		<table border="0">
+		<tr>
+			<td colspan="5"></td><td colspan='2'>Petugas,</td>
+		</tr>
+				<tr>
+			<td colspan="5"></td><td colspan='2'><br><br><br>admin</td>
+		</tr>
+	</table>
+</body>
+</html>
